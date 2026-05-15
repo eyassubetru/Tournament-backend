@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 const admin = require("firebase-admin");
 const os = require("os");
 
-const { sendWhatsappMessage } = require("./whatsapp.js");
+
 const { sendSMS } = require('./sms.js');
 
 dotenv.config();
